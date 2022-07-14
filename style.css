@@ -49,7 +49,6 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 ol, ul {
@@ -252,3 +251,26 @@ button.move i {
         font-size: 70px;
     }
 }
+
+@media screen and (max-width: 500px){
+.clients-img-wrap ul li .img-wrap {
+    width: 22vw;
+    height: 22vw;
+}
+}
+
+@media screen and (max-width: 430px){
+    .box_wrap img{
+        margin: 53px 0;
+    }
+	.box_wrap{
+        height: 320px;
+    }
+.clients-img-wrap ul li img {
+    padding: 12px;
+}
+.clients-img-wrap ul li p {
+    font-size: 14px;
+}
+}
+
